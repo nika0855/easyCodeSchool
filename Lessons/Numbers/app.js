@@ -31,3 +31,23 @@ const arr = ['black', 'red', 'yellow', 'pink', 'white', 'blue', 'orange', 'green
 value = Math.floor(Math.random() * arr.length);
 
 console.log(value, arr[value]);
+
+
+// Генератор цвета
+function generateColor(){
+  return `# ${Math.floor(Math.random()*16777215).toString(16)}`
+}
+
+let color = generateColor();
+
+
+
+console.log(color);
+
+function generateRGB(){
+  return `rgb( ${parseInt(Math.random()*255)}, ${parseInt(Math.random()*255)}, ${parseInt(Math.random()*255)} )`;
+}
+
+let colorRGB = generateRGB();
+
+console.log(colorRGB);
