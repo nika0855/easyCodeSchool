@@ -60,6 +60,6 @@ users.price = 1000;
 users.currensy = 'dollar';
 
 users['details']['model'] = '36';
-users['details']['color'] = 'red';
+users['details']['color'] = 'green';
 
 console.log(users);
